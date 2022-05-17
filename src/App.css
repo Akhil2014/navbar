@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+
+.nav{
+  background-color: black;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.nav>div{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+
+ 
+  }
+.col{
+  color: gray;
+}
+
+.nav button{
+  width: 80px;
+  height: 30px;
+  border: none;
+  background-color: rgb(83, 194, 194);
+  border-radius: 20px;
+  color: white;
+}
